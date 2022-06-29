@@ -1,0 +1,124 @@
+// bits/stdc++.h works in linux. 
+all in one header file := < bits/stdc++.h >
+
+cin ignores space
+
+upper convert
+upper char =( char-'a') + 'A'
+
+
+lower convert
+lower char= 'a' + ( char-'A' ) 
+
+if(s[i]>='a' && s[i]<='z')
+then upper function
+else
+lower function
+
+ascii value=s[i]
+
+to make positive
+if(re<0)
+re=re* -1
+
+
+
+
+constraints
+n=15
+a[n]=a[i]=10
+time complexity=10^15  thats why datatype should be long long int for product
+
+int = 2^31
+long long int =2^61
+
+binarydigit = char - '0'
+
+
+pascal triangle
+1
+1 1
+1 (1+1)2 1
+1 (1+2)3 (2+1)3 1
+1 (1+3)4 (3+3)6 (3+1)4 1
+
+
+********* vedio 14
+
+10 to power 8 = 1e8
+
+runtime error=SIGSEGV 
+
+
+vedio 15
+number of line=iterations
+time complexity= O(line)
+
+for loop= O(no. of line * n)
+
+O(n)+O(n) = O(n)
+O(k*n) and  k << n = O(n)
+O(constant/3/6) = O(1)
+
+while = O(log(n))
+
+nested for
+o+1+2+....+n
+n(n+1)/2= O(n^2/c+n/2) = O(n^2) + O(n/2) = O(n^2)
+
+while(t--)
+for
+= O(t*n)
+
+vedio 17  M modular arithmatic
+
+M(Modulo) = 10^9+7 used mostly which have 2 significance
+1. 10^9+7 = very close to integer max
+2. 10^9+7 is itself prime number multiplicated inverse m = prime 1 to m csn cslculate MMI
+         M is itself prime
+
+(a+b)%M=((a%M)+(b%M)%M
+(a*b)%M=((a%M)*(b%M)%M
+(a-b)%M=((a%M)-(b%M)+M)%M  (result can be negative so +M )
+(a/b)%M=((a%M)+(b^-1)%M)%M
+
+use modulo operation to which we can not store the result and print small version of modulo
+
+a and b can be array or any type variable
+ 
+ (-) result means overflow type 
+
+int = 10^9
+long=10^12
+long long =10^18 
+
+vedi0 18 pre computation tachniques
+
+1.hashing
+2.1D prefix sum
+3.2D prefix sum
+
+hash array
+ global arrays are already initialized to zeros  
+
+10 to power 5 =1e5
+ 
+10 ro power 7 can run in 1 seconds
+
+ 
+precomputation for time complexity (Hashing)
+
+
+vedio 19
+agr number negative hua to kaise store krenge hash array me
+
+threre are 2 ways :-
+1.STL MAP or Unordered MAP
+2.add posotive number
+
+vedio 20
+
+prefix sum (1D/2D)
+
+
+
