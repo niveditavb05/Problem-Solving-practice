@@ -120,5 +120,13 @@ vedio 20
 
 prefix sum (1D/2D)
 
+vedio 23
 
+vedio 25
+in recursion  stack overflow = segmentation error  sequence in stack  
 
+number of function calls -> n
+what is complexity of each function -> O(1)
+ 
+vedio 26
+vedio 27  
