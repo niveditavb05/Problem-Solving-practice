@@ -9,8 +9,9 @@
          a[i] < 10^5
           */
 
+
  int main(){
-      // c^ a ^ b ^ c ^ d   -->c^ a^c^b^b -->c^a^c -->a
+      // c^ a ^ b ^ c ^ d --> c^ a^c^b^b -->c^a^c -->a
       //same numbers xor will give 0 
       int n;
       cin>>n;
