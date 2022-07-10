@@ -20,15 +20,30 @@ int binexprecur(int a,int b){
 }
 int binexpitr(int a,int b){
     int ans=1;
-    while(b){
+    while(b>0){
         if(b&1){
-            ans=(ans*1LL*a) %M;
+            //ans=(ans*1LL*a) %M;
+            ans=binmultiply(ans,a);
         }
-        a=(a*1LL*a)%M;
+        //a=(a*1LL*a)%M;
+        a=binmultiply(a,a);
         b>>=1;
     }
     return ans;
-}
+}//log^2(N)
+
+int binmultiply(long long a,long long b){
+int ans=0;
+    while(b>0){
+        if(b&1){
+            ans=(ans+a) %M;
+        }
+        a=(a+a)%M;
+        b>>=1;
+    }
+    return ans;
+} //large datatype  indirect multiplication  
+
 int main(){
     int a=12312,b=13;
     cout<<binexprecur(a,b);
